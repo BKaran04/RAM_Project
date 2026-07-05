@@ -12,19 +12,9 @@ clocking mon_cb@(posedge clk);
 default input #0 output #0;
 input data_out;
 input address;
-/*input write_enb;
-input read_enb;
-input data_in;
-input reset;*/
 endclocking
 clocking ref_cb@(posedge clk);
 default input #0 output #0;
-/*input data_out;
-input address;
-input write_enb;
-input read_enb;
-input data_in;
-input reset;*/
 endclocking
 modport DRV(clocking drv_cb);
 modport MON(clocking mon_cb);
