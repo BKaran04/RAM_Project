@@ -1,0 +1,208 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/fetools/work_area/frontend/Batch_11/bkaran/SystemVerilog/RAM
+T_opt
+!s110 1783261553
+VimW9LIz:@3?4cI_ge6Q_J0
+Z1 04 3 4 work top fast 0
+=1-6805caf5892e-6a4a6970-e80d1-20709
+Z2 o-quiet -auto_acc_if_foreign -work work +acc=npr
+Z3 tCvgOpt 0
+n@_opt
+Z4 OE;O;10.6c;65
+T_opt1
+!s110 1783225425
+V:ACJnnI8m:jQN?bdP^k1>3
+R1
+=1-6805caf5892e-6a49dc51-8da75-208c9
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1783225534
+V@4R0Ab1KXaZ8MLKj<n^Cz1
+R1
+=1-6805caf5892e-6a49dcbe-b6c-209bd
+R2
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1783226569
+Vb3z`1i8@W976Ihm`z]RMz1
+R1
+=1-6805caf5892e-6a49e0c9-9d566-21313
+R2
+R3
+n@_opt3
+R4
+R0
+T_opt4
+!s110 1783228149
+VP^^FDV^5V2n=`=TYNfj>>1
+R1
+=1-6805caf5892e-6a49e6f5-9c6c8-23f77
+R2
+R3
+n@_opt4
+R4
+R0
+vRAM
+Z5 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+DXx4 work 11 RAM_sv_unit 0 22 d9fRHcW6n`gSWa:lR_3k<3
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 V0nEGUN7c4kEaeVoT`GeS0
+I_5nC2=9g4IBYN>9UO2Yla2
+Z7 !s105 RAM_sv_unit
+S1
+R0
+Z8 w1783253966
+Z9 8RAM.sv
+Z10 FRAM.sv
+L0 3
+Z11 OE;L;10.6c;65
+Z12 !s108 1783261548.000000
+Z13 !s107 defines.svh|RAM.sv|
+Z14 !s90 -sv|+acc|+cover|+fcover|-l|ram.log|RAM.sv|
+!i113 0
+Z15 !s102 +cover
+Z16 o-sv +acc +cover +fcover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@r@a@m
+Yram_if
+R5
+Z17 DXx4 work 18 ram_verify_sv_unit 0 22 ;j=^4C`lMBJ5XL_d1?EVH2
+R6
+r1
+!s85 0
+31
+!i10b 1
+!s100 PG^O@8zViG410G`OmgfU92
+IPc<NVhAVWeWf:Cd:53z?12
+Z18 !s105 ram_verify_sv_unit
+S1
+R0
+Z19 w1783261536
+Z20 8ram_verify.sv
+Z21 Fram_verify.sv
+L0 2
+R11
+Z22 !s108 1783261542.000000
+Z23 !s107 defines.svh|ram_verify.sv|RAM.sv|
+Z24 !s90 RAM.sv|ram_verify.sv|
+!i113 0
+Z25 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+XRAM_sv_unit
+R5
+Vd9fRHcW6n`gSWa:lR_3k<3
+r1
+!s85 0
+31
+!i10b 1
+!s100 O`Dfng7l_hk7hn`bzN@1h1
+Id9fRHcW6n`gSWa:lR_3k<3
+!i103 1
+S1
+R0
+R8
+R9
+R10
+Z26 Fdefines.svh
+L0 5
+R11
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R3
+n@r@a@m_sv_unit
+Xram_verify_sv_unit
+!s115 ram_if
+R5
+V;j=^4C`lMBJ5XL_d1?EVH2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Xhn>FjaC@LYWGAo`Y61Si0
+I;j=^4C`lMBJ5XL_d1?EVH2
+!i103 1
+S1
+R0
+R19
+R20
+R21
+R26
+L0 5
+R11
+R22
+R23
+R24
+!i113 0
+R25
+R3
+vsingle_port_ram
+R5
+!s110 1783250808
+!i10b 1
+!s100 Yzd<HJVIfFEMd6Ad21Dli1
+IZJ?Tm2ZMNbO4o1Q9IfYa40
+R6
+R7
+S1
+R0
+w1783250786
+R9
+R10
+L0 1
+R11
+r1
+!s85 0
+31
+!s108 1783250808.000000
+!s107 RAM.sv|
+!s90 RAM.sv|
+!i113 0
+R25
+R3
+vtop
+R5
+R17
+R6
+r1
+!s85 0
+31
+!i10b 1
+!s100 O`JBf;9zee^H8[U0aXO<R0
+IW6<d9R4Vae8U6i6A?QhMU3
+R18
+S1
+R0
+R19
+R20
+R21
+L0 374
+R11
+R22
+R23
+R24
+!i113 0
+R25
+R3

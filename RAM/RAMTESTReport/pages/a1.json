@@ -1,0 +1,9 @@
+var g_data = {
+a49:{
+scopes:[{s:'44',b:'0',val:'ram_verify_sv_unit'},{val:'ram_generator'},{val:'start'},{val:'#anonblk#29453988#59#4#'},{link:'z.htm?f=0&s=49',val:'#ublk#29453988#60'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__61',fc:'Gr',pc:'Gr',h0:'0',h1:'100'}
+],
+},
+dummyEnd:0
+};
+processAssertionsData(g_data,1);
