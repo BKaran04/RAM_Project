@@ -1,3 +1,6 @@
-RAM.sv
-defines.svh
-ram_verify.sv
+ram.sv
+ram_driver.sv
+ram_generator.sv
+ram_monitor.sv
+ram_package.sv
+ram_top.sv
