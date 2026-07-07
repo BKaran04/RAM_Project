@@ -1,24 +1,24 @@
 var g_data = {
 z6:{prod:'Questa',reporttype:'du',duname:'work.RAM',lang:'SystemVerilog',src:{z:'ram.sv'},summaryTables:{loctable:{
 headers:['Coverage Type', 'Bins', 'Hits', 'Misses', 'Weight', '% Hit', 'Coverage'],
-totalhits:{class:'odd_r', val:'61.19%'},avgw:{class:'bgYellow', val:'57.26%'},
+totalhits:{class:'odd_r', val:'64.17%'},avgw:{class:'bgYellow', val:'64.01%'},
 data:[
 {link:{class:'odd',val:'s.htm?f=1&s=6,Statements'},tb:{class:'odd_r', val:'7'},cb:{class:'odd_r', val:'6'},ms:{class:'odd_r', val:'1'},wt:{class:'odd_r', val:'1'},hp:{class:'odd_r', val:'85.71%'},cp:{class:'bgYellow', val:'85.71%'}}
 ,{link:{class:'even',val:'b.htm?f=1&s=6,Branches'},tb:{class:'even_r', val:'6'},cb:{class:'even_r', val:'5'},ms:{class:'even_r', val:'1'},wt:{class:'even_r', val:'1'},hp:{class:'even_r', val:'83.33%'},cp:{class:'bgYellow', val:'83.33%'}}
-,{link:{class:'odd',val:'c.htm?f=1&s=6,FEC Conditions'},tb:{class:'odd_r', val:'4'},cb:{class:'odd_r', val:'0'},ms:{class:'odd_r', val:'4'},wt:{class:'odd_r', val:'1'},hp:{class:'odd_r', val:'0.00%'},cp:{class:'bgRed', val:'0.00%'}}
-,{link:{class:'even',val:'t.htm?f=1&s=6,Toggles'},tb:{class:'even_r', val:'50'},cb:{class:'even_r', val:'30'},ms:{class:'even_r', val:'20'},wt:{class:'even_r', val:'1'},hp:{class:'even_r', val:'60.00%'},cp:{class:'bgYellow', val:'60.00%'}}
+,{link:{class:'odd',val:'c.htm?f=1&s=6,FEC Conditions'},tb:{class:'odd_r', val:'4'},cb:{class:'odd_r', val:'1'},ms:{class:'odd_r', val:'3'},wt:{class:'odd_r', val:'1'},hp:{class:'odd_r', val:'25.00%'},cp:{class:'bgRed', val:'25.00%'}}
+,{link:{class:'even',val:'t.htm?f=1&s=6,Toggles'},tb:{class:'even_r', val:'50'},cb:{class:'even_r', val:'31'},ms:{class:'even_r', val:'19'},wt:{class:'even_r', val:'1'},hp:{class:'even_r', val:'62.00%'},cp:{class:'bgYellow', val:'62.00%'}}
 ]
 }
 }
 },
 z9:{prod:'Questa',reporttype:'in',scopes:[{s:'7',b:'1',val:'top'},{link:'z.htm?f=1&s=9',val:'DUV'}],du:{val:'work.RAM',link:'z.htm?f=1&s=9'},lang:'SystemVerilog',src:{z:'ram_top.sv'},summaryTables:{loctable:{
 headers:['Coverage Type', 'Bins', 'Hits', 'Misses', 'Weight', '% Hit', 'Coverage'],
-totalhits:{class:'odd_r', val:'61.19%'},avgw:{class:'bgYellow', val:'57.26%'},
+totalhits:{class:'odd_r', val:'64.17%'},avgw:{class:'bgYellow', val:'64.01%'},
 data:[
 {link:{class:'odd',val:'s.htm?f=1&s=9,Statements'},tb:{class:'odd_r', val:'7'},cb:{class:'odd_r', val:'6'},ms:{class:'odd_r', val:'1'},wt:{class:'odd_r', val:'1'},hp:{class:'odd_r', val:'85.71%'},cp:{class:'bgYellow', val:'85.71%'}}
 ,{link:{class:'even',val:'b.htm?f=1&s=9,Branches'},tb:{class:'even_r', val:'6'},cb:{class:'even_r', val:'5'},ms:{class:'even_r', val:'1'},wt:{class:'even_r', val:'1'},hp:{class:'even_r', val:'83.33%'},cp:{class:'bgYellow', val:'83.33%'}}
-,{link:{class:'odd',val:'c.htm?f=1&s=9,FEC Conditions'},tb:{class:'odd_r', val:'4'},cb:{class:'odd_r', val:'0'},ms:{class:'odd_r', val:'4'},wt:{class:'odd_r', val:'1'},hp:{class:'odd_r', val:'0.00%'},cp:{class:'bgRed', val:'0.00%'}}
-,{link:{class:'even',val:'t.htm?f=1&s=9,Toggles'},tb:{class:'even_r', val:'50'},cb:{class:'even_r', val:'30'},ms:{class:'even_r', val:'20'},wt:{class:'even_r', val:'1'},hp:{class:'even_r', val:'60.00%'},cp:{class:'bgYellow', val:'60.00%'}}
+,{link:{class:'odd',val:'c.htm?f=1&s=9,FEC Conditions'},tb:{class:'odd_r', val:'4'},cb:{class:'odd_r', val:'1'},ms:{class:'odd_r', val:'3'},wt:{class:'odd_r', val:'1'},hp:{class:'odd_r', val:'25.00%'},cp:{class:'bgRed', val:'25.00%'}}
+,{link:{class:'even',val:'t.htm?f=1&s=9,Toggles'},tb:{class:'even_r', val:'50'},cb:{class:'even_r', val:'31'},ms:{class:'even_r', val:'19'},wt:{class:'even_r', val:'1'},hp:{class:'even_r', val:'62.00%'},cp:{class:'bgYellow', val:'62.00%'}}
 ]
 }
 }
@@ -26,17 +26,17 @@ data:[
 z5:{prod:'Questa',reporttype:'du',duname:'work.top',lang:'SystemVerilog',src:{z:'ram_top.sv'}},
 z7:{prod:'Questa',reporttype:'in',scopes:[{link:'z.htm?f=1&s=7',val:'top'}],du:{val:'work.top',link:'z.htm?f=1&s=7'},lang:'SystemVerilog',src:{z:'ram_top.sv'},summaryTables:{
 headers:['Statement', 'Branch', 'FEC Condition', 'Toggle'],
-instances:[{parent:'0',ln:'TOTAL',covs:[{class:'bgYellow', val:'57.26'},{class:'bgYellow', val:'85.71'},{class:'bgYellow', val:'83.33'},{class:'bgRed', val:'0.00'},{class:'bgYellow', val:'60.00'}]},
-{parent:'1',link:'z.htm?f=1&s=9',ln:'DUV',covs:[{class:'bgYellow', val:'57.26'},{class:'bgYellow', val:'85.71'},{class:'bgYellow', val:'83.33'},{class:'bgRed', val:'0.00'},{class:'bgYellow', val:'60.00'}]},
+instances:[{parent:'0',ln:'TOTAL',covs:[{class:'bgYellow', val:'64.01'},{class:'bgYellow', val:'85.71'},{class:'bgYellow', val:'83.33'},{class:'bgRed', val:'25.00'},{class:'bgYellow', val:'62.00'}]},
+{parent:'1',link:'z.htm?f=1&s=9',ln:'DUV',covs:[{class:'bgYellow', val:'64.01'},{class:'bgYellow', val:'85.71'},{class:'bgYellow', val:'83.33'},{class:'bgRed', val:'25.00'},{class:'bgYellow', val:'62.00'}]},
 ]
 ,rectable:{
 headers:['Coverage Type', 'Bins', 'Hits', 'Misses', 'Weight', '% Hit', 'Coverage'],
-totalhits:{class:'odd_r', val:'61.19%'},avgw:{class:'bgYellow', val:'57.26%'},
+totalhits:{class:'odd_r', val:'64.17%'},avgw:{class:'bgYellow', val:'64.01%'},
 data:[
 {link:{class:'odd',val:'Statements'},tb:{class:'odd_r', val:'7'},cb:{class:'odd_r', val:'6'},ms:{class:'odd_r', val:'1'},wt:{class:'odd_r', val:'1'},hp:{class:'odd_r', val:'85.71%'},cp:{class:'bgYellow', val:'85.71%'}}
 ,{link:{class:'even',val:'Branches'},tb:{class:'even_r', val:'6'},cb:{class:'even_r', val:'5'},ms:{class:'even_r', val:'1'},wt:{class:'even_r', val:'1'},hp:{class:'even_r', val:'83.33%'},cp:{class:'bgYellow', val:'83.33%'}}
-,{link:{class:'odd',val:'FEC Conditions'},tb:{class:'odd_r', val:'4'},cb:{class:'odd_r', val:'0'},ms:{class:'odd_r', val:'4'},wt:{class:'odd_r', val:'1'},hp:{class:'odd_r', val:'0.00%'},cp:{class:'bgRed', val:'0.00%'}}
-,{link:{class:'even',val:'Toggles'},tb:{class:'even_r', val:'50'},cb:{class:'even_r', val:'30'},ms:{class:'even_r', val:'20'},wt:{class:'even_r', val:'1'},hp:{class:'even_r', val:'60.00%'},cp:{class:'bgYellow', val:'60.00%'}}
+,{link:{class:'odd',val:'FEC Conditions'},tb:{class:'odd_r', val:'4'},cb:{class:'odd_r', val:'1'},ms:{class:'odd_r', val:'3'},wt:{class:'odd_r', val:'1'},hp:{class:'odd_r', val:'25.00%'},cp:{class:'bgRed', val:'25.00%'}}
+,{link:{class:'even',val:'Toggles'},tb:{class:'even_r', val:'50'},cb:{class:'even_r', val:'31'},ms:{class:'even_r', val:'19'},wt:{class:'even_r', val:'1'},hp:{class:'even_r', val:'62.00%'},cp:{class:'bgYellow', val:'62.00%'}}
 ]
 }
 }

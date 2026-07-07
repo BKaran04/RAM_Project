@@ -12,7 +12,7 @@ initial begin
 reset=1; 
 @(posedge clk); 
 reset=0; 
-repeat(1)@(posedge clk); 
+repeat(3)@(posedge clk); 
 reset=1; 
 end
 ram_if intrf(clk,reset);
@@ -23,10 +23,10 @@ test_read t3 = new(intrf.DRV,intrf.MON,intrf.REF_SB);
 test_regression reg_tb = new(intrf.DRV,intrf.MON,intrf.REF_SB);
 initial
 begin
-//t1.run(); 
+t1.run(); 
 //t2.run();
 //t3.run(); 
-reg_tb.run();
+//reg_tb.run();
 $finish();
 end
 endmodule
